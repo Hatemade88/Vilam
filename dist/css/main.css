@@ -10,7 +10,7 @@ body {
 
 div {
   height: 100%;
-  line-height: inherit; }
+  line-height: 1px; }
 
 body, html {
   height: 100%; }
@@ -363,8 +363,9 @@ span {
         text-decoration: none; }
 
 footer {
+  line-height: 10px;
+  background: #FFF;
   width: 100%;
-  background-color: #272727;
   height: 421px;
   padding-top: 80px; }
   footer .top-footer {
