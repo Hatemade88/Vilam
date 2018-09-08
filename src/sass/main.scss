@@ -111,7 +111,12 @@ span {
 }
 
 .second-level {
+  font-size: 24px;
   padding: 33px 0 33px 0;
+
+  li {
+    line-height: 100%;
+  }
 
   .test {
     display: flex;
